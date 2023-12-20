@@ -30,3 +30,11 @@ imshow(gray, cmap = 'gray');
 This is our starting image:
 
 ![image](https://github.com/lnilson0/Image-Processing/assets/128263527/0d94aec3-1fbb-4105-bc49-eaf81bacd5b6)
+
+And now, filter our image with  Kx  and  Ky  seperately. We'll call our filtered images  Gx  and  Gy.
+```
+Gx = filter_2d(gray, Kx)
+Gy = filter_2d(gray, Ky)
+
+Gx
+```
