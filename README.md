@@ -2,7 +2,7 @@
 Utilizes Python with OpenCV to process images using Sobel-Feldman operator, identifying outlines, making the images more easily identifiable for object recognition.
 
 
-The operators for Sobel-Feldman are as follows: 
+The kernel operators for Sobel-Feldman are as follows: 
 
 $$
 \mathbf{K}_x = \begin{bmatrix} 
