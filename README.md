@@ -3,6 +3,7 @@ Utilizes Python with OpenCV to process images using Sobel-Feldman operator, iden
 
 
 The operators for Sobel-Feldman are as follows: 
+
 $$
 \mathbf{K}_x = \begin{bmatrix} 
  +1 & 0 & -1  \\
