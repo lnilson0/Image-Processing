@@ -69,4 +69,5 @@ title('$G_y$');
 
 ![image](https://github.com/lnilson0/Image-Processing/assets/128263527/2c5e9f3c-93fc-472b-b516-b1bb9f6ea82a)
 
+
 This is an estimate of the gradient of our images in the x and y direction.
