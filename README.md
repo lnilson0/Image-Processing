@@ -1,6 +1,23 @@
 # Image-Processing
 Utilizes Python with OpenCV to process images using Sobel-Feldman operator, identifying outlines, making the images more easily identifiable for object recognition.
 
+
+The operators for Sobel-Feldman are as follows: 
+$$
+\mathbf{K}_x = \begin{bmatrix} 
+ +1 & 0 & -1  \\
++2 & 0 & -2 \\
++1 & 0 & -1 
+\end{bmatrix} 
+\quad
+\quad   
+\mathbf{K}_y = \begin{bmatrix} 
+ +1 & +2 & +1\\
+ 0 & 0 & 0 \\
+-1 & -2 & -1
+\end{bmatrix}
+$$
+
 ```
 %pylab inline
 import os, sys
