@@ -110,7 +110,7 @@ imshow(G);
 
 ![image](https://github.com/lnilson0/Image-Processing/assets/128263527/3d24294f-5923-4ee1-bd44-5864b6f8d12f)
 
-Here we see the edges shown from both Gx annd Gy combined!
+Here we see the edges of the image shown from both Gx annd Gy combined!
 
 
 
