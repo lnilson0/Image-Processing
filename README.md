@@ -55,4 +55,14 @@ array([[-0.00784314,  0.        ,  0.00392157, ...,  0.01960784,
        [ 0.00392157, -0.00392157,  0.        , ...,  0.        ,
          0.        , -0.00392157]])
 ```
+Show image after applying these filters: 
+```
+fig = figure(0, (16, 8))
+fig.add_subplot(1,2,1)
+imshow(Gx)
+title('$G_x$');
 
+fig.add_subplot(1,2,2)
+imshow(Gy)
+title('$G_y$');
+```
