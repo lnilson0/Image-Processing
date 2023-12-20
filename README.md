@@ -71,3 +71,10 @@ title('$G_y$');
 
 
 This is an estimate of the gradient of our images in the x and y direction.
+For the next step we estimate the overall gradient for each pixel in our images.
+The overall gradient combines x and y direction, and gives positive whenever there is a edge.
+We do this by taking the gradient magnitude:
+
+$$
+\mathbf{G} = \sqrt{ {\mathbf{G}_x}^2 + {\mathbf{G}_y}^2 }
+$$
