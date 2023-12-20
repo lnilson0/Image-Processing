@@ -18,3 +18,14 @@ Ky = np.array([[1, 2, 1],
                [0, 0, 0],
                [-1, -2, -1]])
 ```
+Import an image to work on:
+```
+im = imread(data_dir + 'data/easy/brick/brick_2.jpg')
+gray = convert_to_grayscale(im/255.)
+```
+```
+fig = figure(0, (8, 8))
+imshow(gray, cmap = 'gray');
+```
+This is our starting image:
+![image](https://github.com/lnilson0/Image-Processing/assets/128263527/0d94aec3-1fbb-4105-bc49-eaf81bacd5b6)
