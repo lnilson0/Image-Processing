@@ -28,4 +28,5 @@ fig = figure(0, (8, 8))
 imshow(gray, cmap = 'gray');
 ```
 This is our starting image:
+
 ![image](https://github.com/lnilson0/Image-Processing/assets/128263527/0d94aec3-1fbb-4105-bc49-eaf81bacd5b6)
