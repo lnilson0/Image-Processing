@@ -8,7 +8,7 @@ import os, sys
 from util.filters import filter_2d
 from util.image import convert_to_grayscale
 ```
-Sobel kernels as numpy arrays
+Sobel kernels as numpy arrays:
 ```
 Kx = np.array([[1, 0, -1],
                [2, 0, -2],
