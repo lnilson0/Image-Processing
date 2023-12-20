@@ -78,3 +78,9 @@ We do this by taking the gradient magnitude:
 $$
 \mathbf{G} = \sqrt{ {\mathbf{G}_x}^2 + {\mathbf{G}_y}^2 }
 $$
+
+```
+#Compute Gradient Magnitude:
+G = np.sqrt(Gx**2+Gy**2)
+```
+
