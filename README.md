@@ -66,6 +66,7 @@ fig.add_subplot(1,2,2)
 imshow(Gy)
 title('$G_y$');
 ```
+
 ![image](https://github.com/lnilson0/Image-Processing/assets/128263527/2c5e9f3c-93fc-472b-b516-b1bb9f6ea82a)
 
 
