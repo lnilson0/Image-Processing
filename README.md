@@ -85,3 +85,4 @@ Compute Gradient Magnitude:
 G = np.sqrt(Gx**2+Gy**2)
 ```
 
+
